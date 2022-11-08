@@ -95,6 +95,7 @@ async fn main() -> Result<()> {
         clear_background(Color::from_rgba(0x12, 0x12, 0x12, 0xff));
 
         egui_macroquad::ui(|egui_ctx| {
+            egui_ctx.set_pixels_per_point(1.5);
             egui::SidePanel::left("left_panel").show( egui_ctx, |ui|{
                 for name in data.names.iter(){
                     if ui.button(name).clicked(){
