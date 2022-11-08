@@ -1,0 +1,20 @@
+[package]
+name = "hourrs"
+version = "0.1.0"
+edition = "2018"
+authors = ["Orest Dubay <orest3.dubay@gmail.com>"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1.6"
+egui = "0.19.0"
+egui-macroquad = "0.12.0"
+egui-miniquad = "0.12.0"
+serde = "1.0.130"
+serde_derive = "1.0.130"
+serde_json = "1.0.52"
+serde_yaml = "0.9.14"
+macroquad = "0.3.3"
+anyhow = "1.0.43"
